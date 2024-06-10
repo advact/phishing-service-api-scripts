@@ -10,6 +10,8 @@ The repository is organized into several subdirectories, each dedicated to diffe
 ##  [Get-bad-behaviour](Get-bad-behaviour/README.md)
 This script is used to notify supervisors when their subordinate triggered bad behaviour in our Phishing-Simulation Service. It scans for bad behaviour of the last day, and sends an e-mail to each supervisor with the report.
 
+##  [service-statistic-visualized](service-statistic-visualized/README.md)
+This script retrieves all statistics data from each custom field for a selected service and visualizes them in bar chars. This allows you to determine which custom field performs the best, among other insights.
 
 # Requiremens
 Those are requirements that you will find over most of those scripts.
