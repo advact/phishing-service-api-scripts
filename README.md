@@ -13,26 +13,6 @@ This script is used to notify supervisors when their subordinate triggered bad b
 ##  [service-statistic-visualized](service-statistic-visualized/README.md)
 This script retrieves all statistics data from each custom field for a selected service and visualizes them in bar chars. This allows you to determine which custom field performs the best, among other insights.
 
-# Requiremens
-Those are requirements that you will find over most of those scripts.
-
-## aware API Token and Acccount Number
-To create a new API Token in our application navigate to [aware.advact.ch](https://aware.advact.ch/) and log in. Next, navigate to 'API Settings' and create a new token. To retrieve your account number, select an endpoint; you will then see your account number displayed in the example request.:
-![aware_api_settings](screenshots/aware_api.png)
-Be sure to just copy the number for the Variables used in the script.
-
-## Azure Application to send E-Mails via graph API
-Navigate to your Azure Portal and create a new App registration and add the necessary API Permissions:
-![Azure_API_Permissions](screenshots/azure_api_permissions.png)
-Remember to **grant admin consent**.
-
-This documentation may be helpful: <br>
-https://woshub.com/send-email-microsoft-graph-api-powershell/
-
-### Client Secret in Azure
-Navigate to Certificates & Secrets and create a new client secret. Be sure to save the **value** of the newly created secret.
-![Azure_API_Permissions](screenshots/azure_client_secrets.png)
-
 ## Using the Scripts
 
 - **Download and Customize**: Customers are allowed to download the scripts and customize them for their own use. We encourage you to explore the scripts and modify them to suit your needs.

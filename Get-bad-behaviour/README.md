@@ -15,12 +15,35 @@ This script is used to notify supervisors when their subordinate triggered bad b
 ### 1. Custom Field
 Please add a new row to your recipient upload to include a 'supervisor-email' for each user. If a recipient lacks a supervisor email, a warning will be generated, but the script will continue to function.
 
-### 2. Azure Application
-Can be found in the main [README.md](../README.md#azure-application-to-send-e-mails-via-graph-api)
-### 3. Client Secret in Azure
-Can be found in the main [README.md](../README.md#client-secret-in-azure)
-### 4. aware API Token
-Can be found in the main [README.md](../README.md#aware-api-token-and-acccount-number)
+### Azure Application to send E-Mails via graph API
+Navigate to your Azure Portal and create a new App registration and add the necessary API Permissions:
+![Azure_API_Permissions](../screenshots/azure_api_permissions.png)
+Remember to **grant admin consent**.
+
+This documentation may be helpful: <br>
+https://woshub.com/send-email-microsoft-graph-api-powershell/
+
+
+### Client Secret in Azure
+Navigate to Certificates & Secrets and create a new client secret. Be sure to save the **value** of the newly created secret.
+![Azure_API_Permissions](../screenshots/azure_client_secrets.png)
+
+If environment variables are used in one of the scripts they will always be called with the prefix:
+```
+$env:ACCESS_SECRET
+$env:AZURE_APP_ID
+$env:TENANT_ID
+$env:MAIL_FROM
+```
+
+### aware API Token and Acccount Number
+To create a new API Token in our application navigate to [aware.advact.ch](https://aware.advact.ch/) and log in. Next, navigate to 'API Settings' and create a new token. To retrieve your account number, select an endpoint; you will then see your account number displayed in the example request.:
+![aware_api_settings](../screenshots/aware_api.png)
+Be sure to just copy the number for the Variables used in the script. If environment variables are used in one of the script they will always be called with the prefix:
+```
+$env:AWARE_TOKEN
+$env:ACCOUNT_NUMBER
+```
 
 ## Usage
 
