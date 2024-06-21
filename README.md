@@ -13,6 +13,9 @@ This script is used to notify supervisors when their subordinate triggered bad b
 ##  [service-statistic-visualized](service-statistic-visualized/README.md)
 This script retrieves all statistics data from each custom field for a selected service and visualizes them in bar chars. This allows you to determine which custom field performs the best, among other insights.
 
+## [automated-recipient-upload](automated-recipient-upload/README.md)
+This script automates the process of uploading recipient lists. It reads a CSV file and uploads the recipients to our application.
+
 ## Using the Scripts
 
 - **Download and Customize**: Customers are allowed to download the scripts and customize them for their own use. We encourage you to explore the scripts and modify them to suit your needs.

@@ -50,7 +50,7 @@ $env:ACCOUNT_NUMBER
 ### Setup Environment variables:
 ```
 # Set as variables
-$awareToken "your aware_api_token"
+$AWARE_TOKEN "your_aware_api_token"
 $ACCOUNT_NUMBER = "your_aware_account_number"
 $ACCESS_SECRET = "your_access_secret_from_the_azure_application"
 $AZURE_APP_ID = "your_azure_app_id"
