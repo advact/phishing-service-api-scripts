@@ -60,7 +60,7 @@ foreach ($item in $jsonArray) {
 
 }
 
-# Send an email to each supervisor with the details of their "user's" wrong actions
+# Send an email to each supervisor with the details of their "user's" with an open E-Learning course
 foreach ($supervisor in $groupedBySupervisor.Keys) {
     write-host "Sending email to supervisor: $supervisor"
 
