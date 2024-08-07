@@ -1,6 +1,6 @@
 # Get-open-elearning
 
-This script is used to notify supervisors when their subordinate has an open E-Learning course in our advact Learn. It scans for open E-Learnings of the last day, and sends an e-mail to each supervisor with the report.
+This script is used to notify supervisors when their subordinate has an open E-Learning course in our advact Learn. It scans for Users with an open E-Learning and sends an e-mail to each supervisor with the report.
 
 ## Requirements
 
