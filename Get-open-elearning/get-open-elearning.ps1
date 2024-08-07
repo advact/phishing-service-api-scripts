@@ -11,7 +11,7 @@ $TENANT_ID = $env:TENANT_ID
 $MAIL_FROM = $env:MAIL_FROM
 
 # Date format must be yyyy-MM-dd
-$date = (Get-Date).AddDays(-1).ToString("yyyy-MM-dd")
+$date = (Get-Date).ToString("yyyy-MM-dd")
 
 Write-Host "Fetching data for date: $date" -ForegroundColor Green
 
