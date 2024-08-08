@@ -19,6 +19,9 @@ This script retrieves all statistics data from each custom field for a selected 
 ## [automated-recipient-upload](automated-recipient-upload/README.md)
 This script automates the process of uploading recipient lists. It reads a CSV file and uploads the recipients to our application.
 
+## [Get-to-low-level](Get-to-low-level/README.md)
+This simple script helps users identify recipients who have a level score below a specified value.
+
 ## Using the Scripts
 
 - **Download and Customize**: Customers are allowed to download the scripts and customize them for their own use. We encourage you to explore the scripts and modify them to suit your needs.
