@@ -20,7 +20,7 @@ $headers = @{
     "Authorization" = "Token $AWARE_TOKEN"
 }
 # Request to aware API
-$URI = "https://aware.advact.ch/api/v2/recipient/firstevent/?account=$ACCOUNT_NUMBER&start_date=$date&end_date=$date"
+$URI = "https://aware.advact.ch/api/v2/recipient/firstevent/?account=$ACCOUNT_NUMBER&filter=wrong_behaviour&start_date=$date&end_date=$date&limit=100"
 
 $response = Invoke-WebRequest -Uri $URI -Headers $headers | Select-Object -Expand Content
 
